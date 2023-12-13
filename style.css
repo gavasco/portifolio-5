@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: #f6f6f6;
+}
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+.cabecalho_menu {
+    display: flex;
+    gap: 60px;
+}
+.cabecalho_menu_link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #22d4f2;
+    text-decoration: none;
+}
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.apresentacao_conteudo {
+    width: 50%;
+}
+.titulo_destaque {
+    color: #22d4f2;
+}
+.apresentacao_conteudo_titulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.apresentacao_conteudo_subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.apresentacao_conteudo_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    color: #22d4f2;
+}
+.apresentacao_conteudo_links_acesso {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    border: 2px solid #22d4f2;
+    text-decoration: none;
+    gap: 16px;
+    color: #f6f6f6;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 50%;
+}
+.imagem_capa {
+    border: 2px solid #22d4f2;
+    border-radius: 16px;
+    width: 50%;
+}
+.rodape {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    padding: 24px;
+    background-color: #22d4f2;
+}
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+    .cabecalho_menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+    .apresentacao_conteudo_links_acesso {
+        width: auto;
+    }
+}
